@@ -2,7 +2,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background:linear-gradient(rgb(26, 108, 114),rgb(4, 4, 122));
+    background:linear-gradient(rgb(39, 130, 190),rgb(5, 5, 56));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,22 +115,32 @@ button:hover{
        flex-direction: column; 
        width: 90%;
        margin: 0;
+       background-color: rgb(253, 253, 253);
    }
+   #premium{
+    background: 0;
+    background-color: rgb(253, 247, 247);
+}
    div{  
-       border-bottom: 5px grey solid;
+       margin-top: 5%;
+       border-bottom: 5px rgb(93, 93, 97) solid;
+       border-width: 80%; 
+       border-bottom-left-radius: 0;
+       border-bottom-right-radius: 0;
+       background-color: white;
    }
    h1{
        margin-bottom: 5%;
-       font-size: 2em;
-   }
-   h2{
        font-size: 1.5em;
    }
+   h2{
+       font-size: 1.1em;
+   }
    h3{
-       font-size: 1.2em;
+       font-size: 0.8em;
    }
    h4{
-       font-size: 2em;
+       font-size: 1.2em;
    }
 
 }
