@@ -129,6 +129,9 @@ button:hover{
        border-bottom-right-radius: 0;
        background-color: white;
    }
+   img{
+       height: 10vh;
+   }
    h1{
        margin-bottom: 5%;
        font-size: 1.5em;
@@ -137,7 +140,7 @@ button:hover{
        font-size: 1.1em;
    }
    h3{
-       font-size: 0.8em;
+       font-size: 1.1em;
    }
    h4{
        font-size: 1.6em;
