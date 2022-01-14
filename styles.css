@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgb(26, 108, 114),rgb(4, 4, 122));
+}
+section{
+    border-radius: 10px; 
+    width: 70%;
+    background-color: white; 
+    display: flex;  
+    margin: auto;
+    align-items: center;
+    justify-content:center; 
+    justify-content:space-evenly;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap:wrap;
+}
+img{
+   width: 165px;
+   height: 27vh;  
+   margin: 5px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+div{ 
+    background-color: rgb(255, 255, 255); 
+    width: 250px;  
+    margin: 2%;
+    border-radius: 20px;
+    padding: 2%;
+}
+#premium{
+    background:linear-gradient(rgb(255, 255, 255),rgb(104, 204, 221));
+}
+h1{
+    font-size: 1.4em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #52595e;
+    margin-bottom: 20%;
+}
+#premiumrec{
+    margin-bottom: 5%;
+}
+#rec{
+    font-size: 0.9em;
+    border: 1.7px;
+    border-style:solid;
+    color:rgb(71, 102, 206);
+    margin-left: 20%;
+    padding:4px;
+    font-style: 'Poppins';
+    font-weight: bold;
+}
+h2{ 
+    padding-top: 10%;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #023e8a;
+}
+h3{ 
+    border-top:rgb(189, 189, 189) 2px solid;
+    padding-top: 10%;
+    font-size: 1em; 
+    color: #023e8a;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h4{
+    border-top:rgb(189, 189, 189) 2px solid;
+    padding-top: 10%;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #023e8a;
+    text-align: center;
+} 
+button{   
+    background-color: rgb(247, 255, 254);
+    border-color: rgb(147, 153, 153); 
+    font-size: 1.5em;  
+    color: #023e8a;
+    display: flex;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.15s all;
+    border-radius: 10px;
+}
+#blue
+{
+    background-color: rgb(27, 129, 163); 
+    color: white;
+}
+button:hover{
+   background-color: rgb(151, 222, 241);
+   border-color: rgb(6, 0, 32);  
+   cursor:pointer;
+   box-shadow: 0 0.75em 0.75em -0.6em rgb(23, 45, 146);
+   transform: translateY(-1.5px);
+}
+#blue:hover{
+    background-color: rgb(18, 53, 119);
+    border-color: rgb(157, 143, 223);  
+    cursor:pointer;
+    box-shadow: 0 0.75em 0.75em -0.6em rgb(18, 35, 112);
+    transform: translateY(-1.5px);
+ }
